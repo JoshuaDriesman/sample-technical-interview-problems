@@ -1,5 +1,5 @@
 """
-This is the most concise solution, but the runtime is less than ideal. 
+This is a concise solution to the anagrams problem, but the runtime is less than ideal. 
 
 Assuming the sorting algorithm is efficient, this solution has a time complexity of O(n * log(n)).
 """
