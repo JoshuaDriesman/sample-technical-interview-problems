@@ -5,3 +5,7 @@ For the Spring semester 2019, I was an Khoury College Fellow for the professiona
 ## Structure
 
 Each problem has its own folder. In that folder, there is a Markdown file with the problem definition. There is then one or more Python files with potential solutions. Python 3 was used for solving the problems.
+
+## Have a new or better solution?
+
+If you have an improvement on a current solution, or a completely new one, feel free to open a PR into this repo with the changes/new approach!
