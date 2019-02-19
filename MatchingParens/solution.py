@@ -1,5 +1,7 @@
 """
-This is one sample solution to the paren matching problem. See problem.md for the description of the problem
+This is one sample solution to the paren matching problem. See problem.md for the description of the problem.
+
+The run time of this solution is O(n).
 """
 
 from queue import LifoQueue
