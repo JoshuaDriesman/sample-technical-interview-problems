@@ -9,4 +9,4 @@ Given two strings (without spaces), check if the two strings are [anagrams](http
 - "" -> True
 - "abc" "bca" -> True
 - "a" "bca" -> False
-- "bc "ab" -> False
+- "bc" "ab" -> False
