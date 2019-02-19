@@ -4,18 +4,16 @@ This is one sample solution to the paren matching problem. See problem.md for th
 The run time of this solution is O(n).
 """
 
-from queue import LifoQueue
-
 
 def is_matching_parens(input):
-    q = LifoQueue()
+    q = list()
 
     for c in input:
         if c == '(' or c == '[':
-            q.put(c)
+            q.append(c)
         else:
-            matching = q.get()
+            matching = q.pop()
             if not ((c == ']' and matching == '[') or (c == ')' and matching == "(")):
                 return False
 
-    return q.empty()
+    return len(q) == 0
