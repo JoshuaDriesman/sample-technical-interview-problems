@@ -9,3 +9,7 @@ Each problem has its own folder. In that folder, there is a Markdown file with t
 ## Have a new or better solution?
 
 If you have an improvement on a current solution, or a completely new one, feel free to open a PR into this repo with the changes/new approach!
+
+Tweaks to existing solutions should be submitted as changes to that solution file.
+
+New solutions should be submitted as a new .py file under the problem's directory.
